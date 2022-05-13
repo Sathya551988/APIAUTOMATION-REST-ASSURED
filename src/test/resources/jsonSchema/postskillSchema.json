@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome6",
+    "definitions": {
+        "Welcome6": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "skill_id": {
+                    "type": "integer"
+                },
+                "skill_name": {
+                    "type": "string"
+                },
+                "message_response": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "message_response",
+                "skill_id",
+                "skill_name"
+            ],
+            "title": "Welcome6"
+        }
+    }
+}

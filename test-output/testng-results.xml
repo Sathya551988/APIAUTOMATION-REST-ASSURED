@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10621" started-at="2022-05-13T13:26:44 EDT" finished-at="2022-05-13T13:26:55 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.SkillsApi$TestRunner@7b2bbc3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="10621" started-at="2022-05-13T13:26:44 EDT" finished-at="2022-05-13T13:26:55 EDT">
+      <class name="com.runner.SkillsApi$TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.SkillsApi$TestRunner@7b2bbc3]" name="setUpClass" is-config="true" duration-ms="520" started-at="2022-05-13T13:26:44 EDT" finished-at="2022-05-13T13:26:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74697863]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.SkillsApi$TestRunner@7b2bbc3]" name="runScenario" duration-ms="9709" started-at="2022-05-13T13:26:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-13T13:26:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Verify Rest service for Delete user -DELETE Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify Skill API Automation with Cucumber BDD Rest Assured"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.SkillsApi$TestRunner@7b2bbc3]" name="runScenario" duration-ms="281" started-at="2022-05-13T13:26:54 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-13T13:26:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate and Test the request without Authorization"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify Skill API Automation with Cucumber BDD Rest Assured"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.SkillsApi$TestRunner@7b2bbc3]" name="tearDownClass" is-config="true" duration-ms="34" started-at="2022-05-13T13:26:55 EDT" finished-at="2022-05-13T13:26:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.SkillsApi$TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
